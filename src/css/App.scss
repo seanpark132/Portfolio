@@ -1,0 +1,23 @@
+/* React-Slick css modifications */
+.slick-prev:before,
+.slick-next:before {
+	font-size: 1.5rem;
+	color: blue;
+
+	@media (min-width: 48rem) {
+		font-size: 2rem;
+	}
+}
+
+.slick-track {
+	margin: auto;
+}
+
+/* App CSS */
+
+.main-padding {
+	@media (min-width: 48rem) {
+		padding-left: clamp(5rem, 8.75vw, 11rem);
+		padding-right: clamp(5rem, 8.75vw, 11rem);
+	}
+}
