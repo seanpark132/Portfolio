@@ -1,4 +1,5 @@
 import ImageSlider from "./ImageSlider";
+import LinkButton from "../LinkButton";
 
 export default function ProjectXlUnder({
 	name,
@@ -15,33 +16,18 @@ export default function ProjectXlUnder({
 				<p className="mt-4">{description}</p>
 				<div className="flex mt-12">
 					{websiteLink && (
-						<a
-							className="mr-6 font-semibold rounded-lg bg-lime-300 py-3 px-3"
-							href={websiteLink}
-							target="_blank"
-						>
-							<div className="flex">
-								<img
-									src="/website-icon.png"
-									className="w-6 mr-2 md:w-8"
-								/>
-								WEBSITE
-							</div>
-						</a>
+						<LinkButton
+							text={"Website"}
+							link={websiteLink}
+							imageSrc={"/website-icon.png"}
+							addClasses="mr-6"
+						/>
 					)}
-					<a
-						className="rounded-lg font-semibold bg-teal-300 py-3 px-3"
-						href={githubLink}
-						target="_blank"
-					>
-						<div className="flex">
-							<img
-								src="/github-mark.png"
-								className="w-6 mr-2 md:w-8"
-							/>
-							GITHUB CODE
-						</div>
-					</a>
+					<LinkButton
+						text={"GitHub Code"}
+						link={githubLink}
+						imageSrc={"/github.png"}
+					/>
 				</div>
 			</div>
 		</article>

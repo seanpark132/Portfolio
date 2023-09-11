@@ -1,3 +1,4 @@
+import LinkButton from "../LinkButton";
 import ImageSlider from "./ImageSlider";
 
 export default function ProjectXlOver({
@@ -14,30 +15,18 @@ export default function ProjectXlOver({
 				<p>{description}</p>
 				<div className="flex mt-12">
 					{websiteLink && (
-						<a
-							className="mr-8 font-semibold rounded-lg bg-lime-300 py-3 px-4"
-							href={websiteLink}
-							target="_blank"
-						>
-							<div className="flex">
-								<img
-									src="/website-icon.png"
-									className="w-8 mr-2"
-								/>
-								WEBSITE
-							</div>
-						</a>
+						<LinkButton
+							text={"Website"}
+							link={websiteLink}
+							imageSrc={"/website-icon.png"}
+							addClasses="mr-6"
+						/>
 					)}
-					<a
-						className="rounded-lg font-semibold bg-teal-300 py-3 px-4"
-						href={githubLink}
-						target="_blank"
-					>
-						<div className="flex">
-							<img src="/github-mark.png" className="w-8 mr-2" />
-							GITHUB CODE
-						</div>
-					</a>
+					<LinkButton
+						text={"GitHub Code"}
+						link={githubLink}
+						imageSrc={"/github.png"}
+					/>
 				</div>
 			</div>
 			<ImageSlider images={images} />
