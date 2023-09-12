@@ -116,7 +116,10 @@ export default function ProjectSection() {
 	];
 
 	return (
-		<section className="pt-12 mb-16 rounded-2xl bg-color-4 md:pt-24">
+		<section
+			className="pt-12 mb-16 rounded-2xl bg-color-4 md:pt-24"
+			id="projects-section"
+		>
 			<h1 className="px-8">PROJECTS</h1>
 			{projects.map((project) => (
 				<Project key={project.name} project={project} />

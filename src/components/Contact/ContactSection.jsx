@@ -2,7 +2,10 @@ import LinkButton from "../LinkButton";
 
 export default function ContactSection() {
 	return (
-		<section className="px-8 py-12 rounded-2xl bg-color-4 mb-16 md:py-24">
+		<section
+			className="px-8 py-12 rounded-2xl bg-color-4 mb-16 md:py-24"
+			id="contact-section"
+		>
 			<h1>CONTACT</h1>
 			<div className="flex items-center mt-12">
 				<img src="/email.png" className="mr-4 w-8 md:w-10" />
