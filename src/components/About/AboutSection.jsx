@@ -5,7 +5,7 @@ export default function AboutSection() {
 		<section className="px-8 py-12 rounded-b-2xl bg-color-4 mb-16 md:py-24">
 			<div>
 				<h1>SEAN PARK</h1>
-				<h4 className="mt-4 mb-8">
+				<h4 className="mb-8">
 					<em>Front-end Web Developer</em>
 				</h4>
 				<p className="mb-8">
