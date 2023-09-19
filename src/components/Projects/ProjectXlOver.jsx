@@ -11,9 +11,9 @@ export default function ProjectXlOver({
 	return (
 		<article className="hidden px-8 py-16 border-b-2 border-color-3 xl:flex">
 			<div className="w-1/2 pr-4">
-				<h2 className="mb-4">{name}</h2>
+				<h2 className="pb-4">{name}</h2>
 				<p>{description}</p>
-				<div className="flex mt-12">
+				<div className="flex pt-12">
 					{websiteLink && (
 						<LinkButton
 							text={"Website"}
@@ -23,7 +23,7 @@ export default function ProjectXlOver({
 						/>
 					)}
 					<LinkButton
-						text={"GitHub Code"}
+						text={"Code"}
 						link={githubLink}
 						imageSrc={"/github.png"}
 					/>

@@ -10,11 +10,11 @@ export default function ProjectXlUnder({
 }) {
 	return (
 		<article className="flex flex-col px-8 py-12 border-b-2 border-color-3 xl:hidden">
-			<ImageSlider images={images} />
-			<div className="mt-8">
-				<h2>{name}</h2>
-				<p className="mt-4">{description}</p>
-				<div className="flex mt-12">
+			<div className="pt-4">
+				<h2 className="pb-8">{name}</h2>
+				<ImageSlider images={images} />
+				<p className="pt-4">{description}</p>
+				<div className="flex pt-12">
 					{websiteLink && (
 						<LinkButton
 							text={"Website"}
@@ -24,7 +24,7 @@ export default function ProjectXlUnder({
 						/>
 					)}
 					<LinkButton
-						text={"GitHub Code"}
+						text={"Code"}
 						link={githubLink}
 						imageSrc={"/github.png"}
 					/>
