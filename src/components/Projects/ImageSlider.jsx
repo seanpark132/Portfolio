@@ -1,26 +1,21 @@
 import Slider from "react-slick";
 
 export default function ImageSlider({ images }) {
-	const settings = {
-		infinite: false,
-		dots: true,
-		slidesToShow: 1,
-		slidesToScroll: 1,
-	};
+  const settings = {
+    infinite: false,
+    dots: true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+  };
 
-	return (
-		<Slider
-			className="ml-2 mr-4 pl-2 mb-8 md:pl-4 xl:mb-0 xl:mr-8 xl:mt-4 xl:w-1/2"
-			{...settings}
-		>
-			{images.map((image) => (
-				<img
-					className="pb-2"
-					key={image.alt}
-					src={image.src}
-					alt={image.alt}
-				/>
-			))}
-		</Slider>
-	);
+  return (
+    <Slider
+      className="w-full px-4 mt-8 mb-4 xl:px-10 xl:mt-4 xl:w-3/5 h-fit"
+      {...settings}
+    >
+      {images.map((image) => (
+        <img className="mb-2" key={image.alt} src={image.src} alt={image.alt} />
+      ))}
+    </Slider>
+  );
 }

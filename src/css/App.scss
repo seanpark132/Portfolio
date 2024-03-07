@@ -1,23 +1,35 @@
 /* React-Slick css modifications */
 .slick-prev:before,
 .slick-next:before {
-	font-size: 1.5rem;
-	color: rgb(8 145 178);
-
-	@media (min-width: 48rem) {
-		font-size: 2rem;
-	}
+  font-size: 1.5rem;
+  color: rgb(8 145 178);
 }
 
 .slick-track {
-	margin: auto;
+  margin: auto;
+}
+
+.slick-prev {
+  left: -10px;
+
+  @media (min-width: 80rem) {
+    left: 10px;
+  }
+}
+
+.slick-next {
+  right: -5px;
+
+  @media (min-width: 80rem) {
+    right: 15px;
+  }
 }
 
 /* App CSS */
 
 .main-padding {
-	@media (min-width: 48rem) {
-		padding-left: clamp(5rem, 8.75vw, 11rem);
-		padding-right: clamp(5rem, 8.75vw, 11rem);
-	}
+  @media (min-width: 48rem) {
+    padding-left: clamp(5rem, 15vw, 20rem);
+    padding-right: clamp(5rem, 15vw, 20rem);
+  }
 }
