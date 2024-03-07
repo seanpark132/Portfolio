@@ -14,7 +14,12 @@ export default function ImageSlider({ images }) {
       {...settings}
     >
       {images.map((image) => (
-        <img className="mb-2" key={image.alt} src={image.src} alt={image.alt} />
+        <img
+          className="mb-2 rounded-xl"
+          key={image.alt}
+          src={image.src}
+          alt={image.alt}
+        />
       ))}
     </Slider>
   );

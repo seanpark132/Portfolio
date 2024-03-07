@@ -11,6 +11,7 @@
 
 .slick-prev {
   left: -10px;
+  z-index: 10;
 
   @media (min-width: 80rem) {
     left: 10px;
@@ -19,6 +20,7 @@
 
 .slick-next {
   right: -5px;
+  z-index: 10;
 
   @media (min-width: 80rem) {
     right: 15px;
