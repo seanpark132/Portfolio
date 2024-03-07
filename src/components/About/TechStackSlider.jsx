@@ -1,20 +1,8 @@
 import Slider from "react-slick";
 import TechStackItem from "./TechStackItem";
+import { TECH_STACK } from "../../InfoAsData";
 
 export default function TechStackSlider() {
-  const techStack = [
-    { src: "/tech_stack/javascript.png", name: "JavaScript" },
-    { src: "/tech_stack/typescript.png", name: "TypeScript" },
-    { src: "/tech_stack/python.png", name: "Python" },
-    { src: "/tech_stack/react.png", name: "React" },
-    { src: "/tech_stack/nextjs.png", name: "Next.js" },
-    { src: "/tech_stack/nodejs.png", name: "Node.js" },
-    { src: "/tech_stack/html5.png", name: "HTML5" },
-    { src: "/tech_stack/css3.png", name: "CSS3" },
-    { src: "/tech_stack/firebase.png", name: "Firebase" },
-    { src: "/tech_stack/mysql.png", name: "MySQL" },
-  ];
-
   const settings = {
     infinite: false,
     dots: true,
@@ -36,7 +24,7 @@ export default function TechStackSlider() {
   return (
     <div className="py-8">
       <Slider className="pb-4 mx-2 px-2 xl:hidden" {...settings}>
-        {techStack.map((item) => (
+        {TECH_STACK.map((item) => (
           <TechStackItem
             key={item.name}
             src={item.src}
@@ -46,7 +34,7 @@ export default function TechStackSlider() {
         ))}
       </Slider>
       <Slider className="hidden pb-4 xl:block" {...settingsLarge}>
-        {techStack.map((item) => (
+        {TECH_STACK.map((item) => (
           <TechStackItem
             key={item.name}
             src={item.src}
