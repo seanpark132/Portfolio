@@ -24,7 +24,10 @@ export default function Project({ project }) {
             />
           </div>
         </div>
-        <ImageSlider images={project.images} />
+        <ImageSlider
+          images={project.images}
+          projectName={project.projectName}
+        />
       </div>
     </article>
   );
