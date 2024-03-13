@@ -1,14 +1,16 @@
 export const TECH_STACK = [
-  { src: "/tech_stack/javascript.png", name: "JavaScript" },
-  { src: "/tech_stack/typescript.png", name: "TypeScript" },
-  { src: "/tech_stack/python.png", name: "Python" },
-  { src: "/tech_stack/react.png", name: "React" },
-  { src: "/tech_stack/nextjs.png", name: "Next.js" },
-  { src: "/tech_stack/nodejs.png", name: "Node.js" },
-  { src: "/tech_stack/html5.png", name: "HTML5" },
-  { src: "/tech_stack/css3.png", name: "CSS3" },
-  { src: "/tech_stack/firebase.png", name: "Firebase" },
-  { src: "/tech_stack/mysql.png", name: "MySQL" },
+  { fileName: "javascript.png", name: "JavaScript" },
+  { fileName: "typescript.png", name: "TypeScript" },
+  { fileName: "python.png", name: "Python" },
+  { fileName: "react.png", name: "React" },
+  { fileName: "nextjs.png", name: "Next.js" },
+  { fileName: "aws_lambda.svg", name: "AWS Lambda" },
+  { fileName: "mongodb.png", name: "MongoDB" },
+  { fileName: "nodejs.png", name: "Node.js" },
+  { fileName: "html5.png", name: "HTML5" },
+  { fileName: "css3.png", name: "CSS3" },
+  { fileName: "firebase.png", name: "Firebase" },
+  { fileName: "mysql.png", name: "MySQL" },
 ];
 
 export const PROJECTS = [
@@ -16,7 +18,7 @@ export const PROJECTS = [
     name: "MapleMaps",
     projectName: "maplemaps",
     description:
-      "A web application built for a Maplestory, a popular online game, providing users with an interactive database and tools to improve their in-game experience. ",
+      "A web application built for Maplestory, a popular online game, providing users with an interactive database and tools to improve their in-game experience. Over 6000 data points are used to create a data-driven user interface that replicates in-game features, providing users with a familiar, interactive experience.",
     websiteLink: "https://maplemaps.netlify.app/",
     githubLink: "https://github.com/seanpark132/Maplemaps",
     images: [1, 2, 3, 4],

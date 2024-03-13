@@ -15,8 +15,8 @@ export default function TechStackSlider() {
   const settingsLarge = {
     infinite: false,
     dots: true,
-    slidesToShow: 5,
-    slidesToScroll: 5,
+    slidesToShow: 6,
+    slidesToScroll: 6,
     accessibility: true,
     speed: 1000,
   };
@@ -27,7 +27,7 @@ export default function TechStackSlider() {
         {TECH_STACK.map((item) => (
           <TechStackItem
             key={item.name}
-            src={item.src}
+            fileName={item.fileName}
             name={item.name}
             alt={item.name}
           />
@@ -37,7 +37,7 @@ export default function TechStackSlider() {
         {TECH_STACK.map((item) => (
           <TechStackItem
             key={item.name}
-            src={item.src}
+            fileName={item.fileName}
             name={item.name}
             alt={item.name}
           />
