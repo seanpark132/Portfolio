@@ -9,13 +9,14 @@ export default function AboutSection() {
       <div>
         <h1>SEAN PARK</h1>
         <h4 className="mb-8">
-          <em>Front-end Web Developer</em>
+          <em>Full-Stack Web Developer</em>
         </h4>
-        <p className="mb-8">
-          I'm a front-end developer with a passion to transform valuable ideas
-          and solutions into web applications. <br />
-          My focus is on developing websites with responsive interfaces and
-          optimized performance.
+        <p className="mb-8 2xl:pr-24">
+          As a full-stack web developer, I am driven by a passion for
+          transforming solutions into maintainable web applications that
+          prioritize an exceptional user experience. To achieve this, my focus
+          is on designing intuitive, responsive interfaces and optimizing
+          performance in both the client and the server.
           <br />
           <br />I am looking for a new opportunity to apply my skills to work on
           complex, larger-scale projects.
