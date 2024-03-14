@@ -10,7 +10,7 @@ export default function Project({ project }) {
           <h2 className="mb-2">{project.name}</h2>
           <p>{project.description}</p>
           <ProjectTechStack techItems={project.techItems} />
-          <div className="flex">
+          <div className="flex py-4">
             {project.websiteLink && (
               <LinkButton
                 text={"Website"}

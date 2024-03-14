@@ -9,11 +9,11 @@ export default function ContactSection() {
       <h1 className="underline">CONTACT</h1>
       <div className="flex items-center mt-8">
         <img src="/email.png" className="mr-4 w-8 md:w-10" />
-        <h5>seanpark132@gmail.com</h5>
+        <p>seanpark132@gmail.com</p>
       </div>
       <div className="flex items-center mt-6">
         <img src="/phone.png" className="mr-4 w-8 md:w-10" />
-        <h5>647-892-5935</h5>
+        <p>647-892-5935</p>
       </div>
 
       <div className="flex mt-8 mb-4">
