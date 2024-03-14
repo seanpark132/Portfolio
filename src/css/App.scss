@@ -27,6 +27,14 @@
   }
 }
 
+.slick-dots {
+  width: calc(100% - 2rem);
+
+  @media (min-width: 80rem) {
+    width: calc(100% - 5rem);
+  }
+}
+
 /* App CSS */
 
 .main-padding {

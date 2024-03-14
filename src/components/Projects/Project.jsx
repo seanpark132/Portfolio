@@ -1,5 +1,6 @@
 import LinkButton from "../LinkButton";
 import ImageSlider from "./ImageSlider";
+import ProjectTechStack from "./ProjectTechStack";
 
 export default function Project({ project }) {
   return (
@@ -8,7 +9,8 @@ export default function Project({ project }) {
         <div className="xl:w-2/5">
           <h2 className="mb-2">{project.name}</h2>
           <p>{project.description}</p>
-          <div className="flex pt-4 xl:pt-8">
+          <ProjectTechStack techItems={project.techItems} />
+          <div className="flex">
             {project.websiteLink && (
               <LinkButton
                 text={"Website"}
