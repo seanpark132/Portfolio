@@ -86,3 +86,9 @@ nav {
     padding-right: 1.5rem;
   }
 }
+
+@media (hover: hover) {
+  a:hover {
+    background-color: rgb(120, 255, 120);
+  }
+}

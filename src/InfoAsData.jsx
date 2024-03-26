@@ -18,8 +18,10 @@ export const PROJECTS = [
     name: "MapleMaps",
     projectName: "maplemaps",
     techItems: ["TypeScript", "React", "AWS Lambda", "MongoDB", "Node.js"],
-    description:
-      "A web application built for Maplestory, a popular online game, providing users with an interactive database and tools to improve their in-game experience. Over 6000 data points are used to create a data-driven user interface that replicates in-game features, providing users with a familiar, interactive experience.",
+    description: `A web application built for Maplestory, a popular online game, 
+    providing users with an interactive database and tools to improve their in-game experience. 
+    Over 6000 data points are used to create a data-driven user interface that replicates in-game 
+    features, providing users with a familiar, interactive experience.`,
     websiteLink: "https://maplemaps.netlify.app/",
     githubLink: "https://github.com/seanpark132/Maplemaps",
     images: [1, 2, 3, 4],
@@ -29,8 +31,10 @@ export const PROJECTS = [
     name: "FaveBattles",
     projectName: "favebattles",
     techItems: ["JavaScript", "React", "HTML5", "CSS3", "Firebase"],
-    description:
-      "A single-page app developed using React, where users can create and play tournament-like games to test their preferences on trendy topics. Users can discover popular choices for topics of interest, play with friends to see where opinions differ, and look at the rankings to see where their favourite lands. Check out the website in the link below!",
+    description: `A single-page app developed using React, where users can create and play 
+    tournament-like games to test their preferences on trendy topics. Users can discover popular 
+    choices for topics of interest, play with friends to see where opinions differ, and look at the 
+    rankings to see where their favourite lands. Check out the website in the link below!`,
     websiteLink: "https://favebattles.com/",
     githubLink: "https://github.com/seanpark132/FaveBattles",
     images: [1, 2, 3, 4, 5, 6],
@@ -40,7 +44,8 @@ export const PROJECTS = [
     projectName: "robot_or_not",
     techItems: ["TypeScript", "Next.js", "Node.js", "MySQL"],
     description: `A multiplayer single-page app developed using Next.js, where users need to guess
-			if a response to a question is AI-generated or made by another user. A fun game to play with friends that uses OpenAI's API to create unique experiences. Check out the website in the link below!`,
+			if a response to a question is AI-generated or made by another user. A fun game to play with
+       friends that uses OpenAI's GPT-4 API to create unique experiences. Check out the website in the link below!`,
     websiteLink: "https://robot-or-not.vercel.app/",
     githubLink: "https://github.com/seanpark132/Robot-or-Not",
     images: [1, 2, 3, 4, 5, 6, 7],
@@ -49,8 +54,9 @@ export const PROJECTS = [
     name: "Faster Snake Game",
     projectName: "snake",
     techItems: ["Python"],
-    description:
-      "A faster-paced version of the classic snake game, developed using Python. Unique features include: additional food that is created every 10 seconds, food deletion after 10 seconds, and an in-game timer. These features were added to provide users with a new, dynamic experience.",
+    description: `A faster-paced version of the classic snake game, developed using Python. 
+    Unique features include: additional food that is created every 10 seconds, food deletion after 10 seconds, 
+    and an in-game timer. These features were added to provide users with a new, dynamic experience.`,
     githubLink: "https://github.com/seanpark132/Faster-snake-game",
     images: [1, 2, 3],
   },
