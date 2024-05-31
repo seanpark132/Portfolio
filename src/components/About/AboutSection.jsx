@@ -12,12 +12,11 @@ export default function AboutSection() {
           <em>Full-Stack Web Developer</em>
         </h4>
         <p className="mb-8">
-          As a full-stack web developer, I am driven by a passion for
-          transforming ideas and solutions into web applications that prioritize
-          an exceptional user experience. To achieve this, I focus on designing
-          intuitive, responsive interfaces and optimizing performance on both
-          the client and the server.
-          <br />
+          I am a full-stack developer with experience in developing web
+          applications end-to-end, and providing thousands of users with useful
+          tools and solutions. Throughout development, I focus on designing
+          intuitive, responsive interfaces, and effectively using technologies
+          to optimize performance on both the client and the server. <br />
           <br />
           I am looking for an opportunity to apply my skills in a professional
           setting and contribute to valuable projects.
