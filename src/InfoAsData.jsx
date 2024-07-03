@@ -18,11 +18,11 @@ export const PROJECTS = [
     name: "MapleMaps",
     projectName: "maplemaps",
     techItems: ["TypeScript", "React", "AWS Lambda", "MongoDB", "Node.js"],
-    description: `A web app serving 12,000+ monthly active users, offering a comprehensive database and useful tools for an online game.     
+    description: `A web app serving 10,000+ monthly active users, offering a comprehensive database and useful tools for an online game.     
     Over 6,000 data points are used to create a data-driven user interface that replicates in-game 
-    features, providing users with a familiar experience. To optimize performance, data from MongoDB is queried and processed in Lambda functions before being sent to the client.`,
+    features, providing users with a familiar experience. The website features a highly customizable table built using TanStack Table and shadcn/ui, which allows users to quickly sort and filter data.`,
     websiteLink: "https://maplemaps.net/",
-    images: [1, 2, 3, 4],
+    images: [1, 2, 3, 4, 5],
   },
 
   {
