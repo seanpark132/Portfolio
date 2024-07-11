@@ -54,7 +54,7 @@ export const PROJECTS = [
     techItems: ["Python"],
     description: `A faster-paced version of the classic snake game, developed using Python. 
     Unique features include: additional food that is created every 10 seconds, food deletion after 10 seconds, 
-    and an in-game timer. These features were added to provide users with a new, dynamic experience.`,
+    and an in-game timer.`,
     githubLink: "https://github.com/seanpark132/Faster-snake-game",
     images: [1, 2, 3],
   },

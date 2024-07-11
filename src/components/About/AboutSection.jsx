@@ -12,15 +12,15 @@ export default function AboutSection() {
           <em>Full-Stack Web Developer</em>
         </h4>
         <p className="mb-8">
-          My experience lies in building full-stack web applications using a
-          wide range of technologies, and serving thousands of users with useful
-          tools and solutions. I focus on designing intuitive, responsive
-          interfaces, and effectively using technologies to optimize server-side
+          My experience with full-stack development is in building web
+          applications that serve thousands of users with useful tools and
+          solutions. I focus on designing intuitive, responsive interfaces, and
+          effectively using a wide range of technologies to optimize server-side
           and client-side performance.
           <br />
           <br />
           I am looking for an opportunity to apply my skills in a professional
-          setting and contribute to large-scale projects.
+          setting and contribute to larger-scale projects.
           <br />
           <br />
           <strong>
