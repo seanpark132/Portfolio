@@ -15,12 +15,12 @@ export const TECH_STACK = [
 
 export const PROJECTS = [
   {
-    name: "MapleMaps",
+    name: "Maplemaps",
     projectName: "maplemaps",
     techItems: ["TypeScript", "React", "AWS Lambda", "MongoDB", "Node.js"],
-    description: `A web app serving 30,000+ monthly active users, offering a comprehensive database and useful tools for an online game.     
-    Over 6,000 data points are used to create a data-driven user interface that replicates in-game 
-    features, providing users with a familiar experience. The website features a highly customizable table built using TanStack Table and shadcn/ui, which allows users to quickly sort and filter data.`,
+    description: `A web app serving 40,000+ monthly active users, offering a comprehensive database and useful tools for an online game.     
+    To display a data-driven interface of over 5,000 documents and images while maintaining high performance for users, effective data structures, 
+    Lambda functions, and MongoDB best practices are used. A highly customizable table was built using TanStack Table and shadcn/ui to let users quickly sort and filter data.`,
     websiteLink: "https://maplemaps.net/",
     images: [1, 2, 3, 4, 5],
   },
