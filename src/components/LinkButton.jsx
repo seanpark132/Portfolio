@@ -1,7 +1,7 @@
 export default function LinkButton({ text, link, imageSrc, addClasses }) {
   return (
     <a
-      className={`${addClasses} rounded-lg font-semibold py-2 px-2 border border-color-1 duration-300 bg-sky-200 text-color-1`}
+      className={`${addClasses} rounded-lg font-semibold py-2 px-2 border border-color-1 duration-300 text-color-1`}
       href={link}
       target="_blank"
     >

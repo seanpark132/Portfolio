@@ -18,9 +18,8 @@ export const PROJECTS = [
     name: "Maplemaps",
     projectName: "maplemaps",
     techItems: ["TypeScript", "React", "AWS Lambda", "MongoDB", "Node.js"],
-    description: `A web app serving 40,000+ monthly active users, offering a comprehensive database and useful tools for an online game.     
-    To display a data-driven interface of over 5,000 documents and images while maintaining high performance for users, effective data structures, 
-    Lambda functions, and MongoDB best practices are used. A highly customizable table was built using TanStack Table and shadcn/ui to let users quickly sort and filter data.`,
+    description: `A web app serving over 40,000 monthly active users, offering a comprehensive database and useful tools for Maplestory, an online game.     
+    To display a dynamic, data-driven UI of over 5,000 documents and images while maintaining high performance for users and low operating costs, I leveraged AWS cloud services, MongoDB, and optimized data structures.`,
     websiteLink: "https://maplemaps.net/",
     images: [1, 2, 3, 4, 5],
   },
