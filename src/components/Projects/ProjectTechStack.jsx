@@ -1,5 +1,6 @@
 import ProjectTechStackItem from "./ProjectTechStackItem";
 import { TECH_STACK } from "../../InfoAsData";
+import TechStackItem from "../About/TechStackItem";
 
 export default function ProjectTechStack({ techItems }) {
   return (
@@ -9,7 +10,7 @@ export default function ProjectTechStack({ techItems }) {
           const techStackObj = TECH_STACK.find((obj) => obj.name === name);
 
           return (
-            <ProjectTechStackItem
+            <TechStackItem
               key={techStackObj.name}
               fileName={techStackObj.fileName}
               name={techStackObj.name}

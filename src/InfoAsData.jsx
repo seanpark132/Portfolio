@@ -2,6 +2,7 @@ export const TECH_STACK = [
   { fileName: "javascript.png", name: "JavaScript" },
   { fileName: "typescript.png", name: "TypeScript" },
   { fileName: "python.png", name: "Python" },
+  { fileName: "c_sharp.svg", name: "C#" },
   { fileName: "react.png", name: "React" },
   { fileName: "nextjs.png", name: "Next.js" },
   { fileName: "aws_lambda.svg", name: "AWS Lambda" },
@@ -9,6 +10,8 @@ export const TECH_STACK = [
   { fileName: "nodejs.png", name: "Node.js" },
   { fileName: "html5.png", name: "HTML5" },
   { fileName: "css3.png", name: "CSS3" },
+  { fileName: "cypress.svg", name: "Cypress" },
+  { fileName: "vitest.svg", name: "Vitest" },
   { fileName: "firebase.png", name: "Firebase" },
   { fileName: "mysql.png", name: "MySQL" },
 ];
@@ -17,7 +20,14 @@ export const PROJECTS = [
   {
     name: "Maplemaps",
     projectName: "maplemaps",
-    techItems: ["TypeScript", "React", "AWS Lambda", "MongoDB", "Node.js"],
+    techItems: [
+      "TypeScript",
+      "React",
+      "AWS Lambda",
+      "MongoDB",
+      "Node.js",
+      "Cypress",
+    ],
     description: `A web app serving over 40,000 monthly active users, offering a comprehensive database and useful tools for Maplestory, an online game.     
     To display a dynamic, data-driven UI of over 5,000 documents and images while maintaining high performance for users and low operating costs, I leveraged AWS cloud services, MongoDB, and optimized data structures.`,
     websiteLink: "https://maplemaps.net/",

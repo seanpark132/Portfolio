@@ -19,8 +19,8 @@ export default function AboutSection() {
           performance.
           <br />
           <br />
-          I am eager to contribute to impactful projects and continue growing as
-          a developer by solving real-world challenges.
+          I am eager to contribute to impactful projects and using my skillset
+          to solve real-world challenges.
           <br />
           <br />
           <strong>

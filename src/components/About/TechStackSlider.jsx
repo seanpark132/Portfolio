@@ -22,8 +22,8 @@ export default function TechStackSlider() {
   };
 
   return (
-    <div className="py-8">
-      <Slider className="pb-4 mx-2 px-2 xl:hidden" {...settings}>
+    <div className="py-4">
+      <Slider className="mx-2 px-2 pb-4 xl:hidden" {...settings}>
         {TECH_STACK.map((item) => (
           <TechStackItem
             key={item.name}
