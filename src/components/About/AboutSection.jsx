@@ -3,7 +3,7 @@ import TechStackSlider from "./TechStackSlider";
 export default function AboutSection() {
   return (
     <section
-      className="px-8 py-12 rounded-b-2xl bg-color-4 mb-16 xl:py-16 xl:px-12"
+      className="mb-16 rounded-b-2xl bg-color-4 px-8 py-12 xl:px-12 xl:py-16"
       id="about-section"
     >
       <div>
@@ -19,8 +19,8 @@ export default function AboutSection() {
           performance.
           <br />
           <br />
-          I am eager to contribute to impactful projects and using my skillset
-          to solve real-world challenges.
+          I am eager to contribute to impactful projects and use my skillset to
+          solve real-world challenges.
           <br />
           <br />
           <strong>

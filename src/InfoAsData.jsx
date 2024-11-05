@@ -29,7 +29,7 @@ export const PROJECTS = [
       "Cypress",
     ],
     description: `A web app serving over 40,000 monthly active users, offering a comprehensive database and useful tools for Maplestory, an online game.     
-    To display a dynamic, data-driven UI of over 5,000 documents and images while maintaining high performance for users and low operating costs, I leveraged AWS cloud services, MongoDB, and optimized data structures.`,
+    To efficiently serve over 5,000 data points and images to users while maintaining high performance and low operating costs, I optimized database architecture, and client-side fetching processes.`,
     websiteLink: "https://maplemaps.net/",
     images: [1, 2, 3, 4, 5],
   },
