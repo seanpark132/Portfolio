@@ -12,11 +12,13 @@ export default function AboutSection() {
           <em>Full-Stack Web Developer</em>
         </h4>
         <p className="mb-8">
-          I am a passionate developer with hands-on experience in building
-          scalable web applications that serve thousands of users. My focus is
-          on designing intuitive, responsive interfaces, and effectively using a
-          wide range of technologies to optimize server-side and client-side
-          performance.
+          I'm passionate about building scalable, high-performance web
+          applications using React and TypeScript, and always eager to learn new
+          ways to improve performance and user experience. With experience in
+          integrating cloud services such as AWS into my applications, I've
+          scaled my projects to tens of thousands of active users. On the
+          frontend, I am focused on writing high-quality, maintainable code by
+          using modular components and custom hooks.
           <br />
           <br />
           I am eager to contribute to impactful projects and use my skillset to
