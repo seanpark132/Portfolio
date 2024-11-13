@@ -9,7 +9,7 @@ export default function AboutSection() {
       <div>
         <h1>SEAN PARK</h1>
         <h4 className="mb-8">
-          <em>Full-Stack Web Developer</em>
+          <em>Front-end Developer</em>
         </h4>
         <p className="mb-8">
           I'm passionate about building scalable, high-performance web
